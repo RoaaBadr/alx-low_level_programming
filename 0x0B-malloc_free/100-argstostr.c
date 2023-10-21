@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>		
+#include <stdlib.h>
 /**
  * argstostr - main entry
  * @ac: int input
@@ -33,7 +33,7 @@ char *argstostr(int ac, char **av)
 		{
 			str[r++] = '\n';
 		}
-		return (str);
 	}
+	return (str);
 }
 
